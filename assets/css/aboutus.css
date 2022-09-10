@@ -3,7 +3,9 @@
 }
 .container{
     flex-wrap: wrap;
-    position: relative;
+    width: fit-content;
+    align-self: center;
+    justify-self: center;
 }
 #imgabout{
     width:50%;
@@ -14,17 +16,15 @@
     border: #352a0f 1px solid;
     padding: 10px;
     border-radius:10px ;
-    grid-template-columns: repeat(4,fr);
+    grid-template-columns: repeat(4,auto);
     grid-template-areas: "grid1 grid1 grid1 grid1 grid2 grid2 grid3 grid3"
      "grid4 grid4 grid5 grid5 grid5 grid5 grid3 grid3";
     grid-gap: 15px;
-    width: 100%;
 }
 .grid1{
     grid-area: grid1;
-    background-color: #4e1bd2;
+    background-color: #6f4dc4;
     border-radius:5px ;
-    width: fit-content;
 }
 .grid2{
     grid-area: grid2;
@@ -67,9 +67,37 @@ blockquote p{
 q{
     color:rgb(187, 187, 187);
 }
-@media screen and (min-width:0px) and (max-width:500px) {
+.vg{
+    color:rgb(187, 187, 187);
+    font-size: 13px;
+}
+@media screen and (min-width:0px) and (max-width:400px) {
     .gridsystem{
         grid-template-columns:1fr;
+        grid-template-areas: "grid1" "grid2" "grid5" "grid4" "grid3";
     }
+    .grid1{
+       max-width: fit-content;
+    }
+   
    }
- 
+@media screen and (min-width:400px) and (max-width:730px) {
+    .gridsystem{
+        grid-template-columns:1fr;
+        grid-template-areas: "grid1" "grid2" "grid5" "grid4" "grid3";
+    }
+    .grid1{
+       max-width: fit-content;
+    }
+   
+   }
+   @media screen and (min-width:730px) and (max-width:1418px) {
+    .gridsystem{
+        grid-template-columns:1fr;
+        grid-template-areas: "grid1" "grid2" "grid5" "grid4" "grid3";
+    }
+    .grid1{
+       max-width: fit-content;
+    }
+   
+   }

@@ -20,7 +20,8 @@ body {
 
 nav {
     background-color: #151428;
-    position: relative;
+    position:static;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -114,8 +115,7 @@ textarea:focus {
 footer {
     background-color: #151428;
     padding: 20px 20px;
-    position:fixed  ;
-    bottom: 0;
+    position:relative;
     width: 100%;
     text-align: center;
     color: #fff;

@@ -94,7 +94,8 @@ figcaption{
     background-repeat: no-repeat;
     background-size:cover ;
     width: 100%;
-    height: 890px;
+    flex-wrap: wrap;
+    height: 100vh;
 }
 #underline{
     text-decoration: underline;
@@ -107,11 +108,11 @@ figcaption{
     font-size: 30px;
     font-weight: bold;
     margin-top: 420px;
-    margin-left: 970px;
+    margin-left: 1070px;
 }
 .imgdev{
     color: #fff;
     font-size: 25px;
     font-weight: 500;
-    margin-left: 970px;
+    margin-left: 1070px;
 }
