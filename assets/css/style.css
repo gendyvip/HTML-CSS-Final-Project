@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: Tajawal;
+    color: #151428;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbrand {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav {
+    background-color: #151428;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#logo {
+    width: 70px;
+    justify-content: center;
+    align-self: center;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.whiteicon {
+    color: #fff;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #ffb500;
+}
+
+header h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    padding: 20px 200px;
+    margin: 20px;
+}
+
+.col-50 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+}
+
+.col-50 {
+    float: left;
+    width: 50%;
+    margin-top: 12px;
+}
+
+#submit {
+    margin-top: 8px;
+    background-color: #4e1bd2;
+    color: #fff;
+    padding: 6px 12px;
+    border: 0px;
+    border-radius: 4px;
+    margin-left: 50%;
+    border: solid #fff 1px;
+}
+
+#submit:hover {
+
+    background-color: #221c30;
+    border: solid #ffb500 1px;
+}
+
+input,
+select,
+textarea {
+    padding: 6px;
+    border-radius: 4px;
+    color: #1d1c31;
+    border: 1px solid #ffb500;
+}
+
+textarea {
+    max-width: fit-content;
+    min-width: fit-content;
+}
+
+input:focus,
+textarea:focus {
+    background-color: #ccc;
+}
+
+footer {
+    background-color: #151428;
+    padding: 20px 20px;
+    position:fixed  ;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    flex-wrap: wrap;
+}
+.toggler{
+    display: none;
+    margin-right: 10px;
+}
+
+@media screen and (min-width:171px) and (max-width:631px) {
+    .menu ul li{
+display: block;
+padding: 10px;
+ }
+ #logo{
+    display: none;
+ }
+}
+@media screen and (min-width:631px) and (max-width:717px) {
+    nav{
+        justify-content: center;
+    }
+         #logo{
+            display: none;
+         }
+   }
+
+
+@media screen and (min-width:0px) and (max-width:171px) {
+    .menu ul li {
+        display: block;
+        padding: 6px;
+         }
+         #logo,.menu ul li span {
+            display: none;
+         }
+   }
+ 
+
+
+
+
+
+

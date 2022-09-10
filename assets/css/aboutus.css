@@ -1,0 +1,75 @@
+*{
+    color:#fff;
+}
+.container{
+    flex-wrap: wrap;
+    position: relative;
+}
+#imgabout{
+    width:50%;
+    margin-left: 25%;
+}
+.gridsystem{
+    display: grid;
+    border: #352a0f 1px solid;
+    padding: 10px;
+    border-radius:10px ;
+    grid-template-columns: repeat(4,fr);
+    grid-template-areas: "grid1 grid1 grid1 grid1 grid2 grid2 grid3 grid3"
+     "grid4 grid4 grid5 grid5 grid5 grid5 grid3 grid3";
+    grid-gap: 15px;
+    width: 100%;
+}
+.grid1{
+    grid-area: grid1;
+    background-color: #4e1bd2;
+    border-radius:5px ;
+    width: fit-content;
+}
+.grid2{
+    grid-area: grid2;
+    background-color: rgb(75, 65, 47);
+    border-radius:5px ;
+}
+.grid3{
+    grid-area:grid3;
+    background-color: rgb(85, 57, 57);
+    border-radius:5px ;
+}
+.grid4{
+    grid-area:grid4;
+    background-color: rgb(117, 113, 91);
+    border-radius:5px ;
+}
+.grid5{
+    grid-area:grid5;
+    background-color: rgb(141, 123, 19);
+    border-radius:5px ;
+}
+figure{
+    display: flex;
+    flex-direction: row;
+}
+.captions{
+    margin-left: 15px;
+}
+figure img{
+    width: 35px;
+    height: 35px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+}
+blockquote p{
+    font-size: 18px;
+    font-weight:bold ;
+    letter-spacing: 2px;
+}
+q{
+    color:rgb(187, 187, 187);
+}
+@media screen and (min-width:0px) and (max-width:500px) {
+    .gridsystem{
+        grid-template-columns:1fr;
+    }
+   }
+ 

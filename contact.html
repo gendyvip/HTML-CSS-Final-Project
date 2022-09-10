@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic HTML Project</title>
+    <link rel="icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tajawal">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu">
+            <ul>
+                <li class="whiteicon"><a href="home.html"><i class="fa-solid fa-house">&nbsp</i><span>Home</span></a></li>
+                <li class="whiteicon"><a href="store.html"><i class="fa-solid fa-store">&nbsp</i><span>Store</span></a></li>
+                <li class="whiteicon"><a href="aboutus.html"><i class="fa-solid fa-circle-info">&nbsp</i><span>About</span></a></li>
+                <li class="whiteicon"><a href="contact.html"><i class="fa-solid fa-address-card">&nbsp</i> <span>Contact Us</span>
+                        </a></li>
+                <li class="whiteicon"><a href="portfilo.html"><i class="fa-solid fa-id-card-clip">&nbsp</i><span>Portfilo</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbrand">
+            <span class="logosp"><a href="home.html"><img id="logo" src="./assets/logo.png" alt="Logo"></a></span>
+        </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section id="contact">
+            <form id="contactusform" action="./home.html">
+                <div class="row">
+                    <div class="col-50">
+                        <label for="name">Full Name*</label>
+                    </div>
+                    <div class="col-50">
+                        <input id="name" type="text" name="name" placeholder="Full Name" minlength="3" maxlength="15"
+                            required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-50">
+                        <label for="email">Email*</label>
+                    </div>
+                    <div class="col-50">
+                        <input id="email" type="email" name="email" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-50">
+                        <label for="phone">Phone</label>
+                    </div>
+                    <div class="col-50">
+                        <input id="phone" type="tel" name="phone" placeholder="Phone">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-50">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="col-50">
+                        <input id="subject" type="text" name="subject" placeholder="Subject">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-50">
+                        <label for="gender">Gender</label>
+                    </div>
+                    <div class="col-50">
+                        <input id="male" type="radio" name="gender">
+                        <label for="male">Male</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input id="female" type="radio" name="gender">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-50">
+                        <label for="topics">Topics</label>
+                    </div>
+                    <div class="col-50">
+                        <input id="general" type="checkbox" name="general">
+                        <label for="general">General</label>
+                        <input id="help" type="checkbox" name="help">
+                        <label for="help">Help</label>
+                        <input id="issue" type="checkbox" name="issue">
+                        <label for="issue">Issue</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-50">
+                        <label for="message">Message</label>
+                    </div>
+                    <div class="col-50">
+                        <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-50">
+                        <label for="attachment">Attachment (Optional)</label>
+                    </div>
+                    <div class="col-50">
+                        <input id="attachment" type="file" accept=".pdf,image/*" multiple>
+                    </div>
+                </div>
+                <button id="submit">Submit</button>
+            </form>
+        </section>
+        <img id="imgcontact" src="./assets/contact.png" alt="Contact">
+    </main>
+    <br><br>
+    <br><br>
+    <br><br>
+    <footer>
+        Copyright ©Mohamed Elgendy, All rights reserved.
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/5ae2d95ab7.js" crossorigin="anonymous"></script>
+
+</html>

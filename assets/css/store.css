@@ -1,0 +1,88 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-self: center;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.categoryheader{
+    text-align: center;
+    margin-top: 8px;
+    background-color: #4e1bd2;
+    color: #fff;
+    padding: 6px 12px;
+    border: 0px;
+    border-radius:4px ;
+    align-self: center;
+    font-size: 23px;
+    margin: 0 auto;
+    width: 200px;
+    border: solid #fff 1px;
+}
+
+.carditem{
+    margin: 15px 20px 0px 0px;
+    border: #4e1bd2 1px solid;
+    border-radius: 4px;
+    padding:7px;
+    width: 300px;
+    height: 310px;
+
+}
+figure{
+    display: flex;
+    flex-direction: column;
+}
+figure img{
+    align-self: center;
+}
+
+img + figcaption{
+    border-bottom: #ccc 1px solid;
+    font-weight: bold ;
+    font-size: 18px;
+    width: max-content;
+    align-self: center;
+    padding-top: 5px;
+}
+.priceb{
+   font-weight: bold;
+   text-align: left;
+}
+.pricew{
+    padding-top: 8px;
+    text-align: left !important; 
+}
+.was{
+    text-decoration: line-through;
+    font-weight: bold;
+
+}
+.secondcontent span,.firstcontent span,.thirdcontent span{
+    font-weight: bold;
+}
+.carditem figure img:hover{
+  animation-name: imgani;
+  animation-duration:5s;
+}
+.categoryheader:hover{
+    animation-name: headani;
+    animation-duration:3s;
+}
+@keyframes imgani {
+    0%   {transform: scaleX(-1)}
+    50%   {transform: scaleX(1)}
+    100%   {transform: scaleX(-1)}
+}
+@keyframes headani {
+    0%   {transform:translate(10%,30%);opacity:0.7;}
+   
+}

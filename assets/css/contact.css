@@ -1,0 +1,27 @@
+
+#contactusform{
+    border: #3a334c 1px solid;
+    border-radius: 4px;
+    padding: 20px 20px;
+    background-color: #1d1c31;
+    color: #fff;
+    right: 0px;
+    width: 25%;
+    min-width: 400px;
+}
+input[type="file"]{
+    border: none;
+    color: #fff;
+}
+input[type="file"]:focus{
+    border: none;
+    background-color: transparent;
+}
+.container{
+    display: flex;
+}
+#imgcontact{
+    width: 50%;
+    height: 550px;
+    margin-left: auto;
+}

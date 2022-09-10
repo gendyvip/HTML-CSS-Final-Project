@@ -1,0 +1,126 @@
+/* home.html styles*/
+.containerhome{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    background-color: #151428;
+    border-right: #ffb500 1px solid;
+    flex-wrap: nowrap;
+}
+.userblock{
+    background-color: #4e1bd2;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+.fa-user-tie{
+    color: #4e1bd2;
+    border-radius:50px ;
+    border: #fff 1px solid;
+    padding: 5px ;
+    background-color: #fff ;
+}
+details{
+    padding: 15px;
+}
+aside ul{
+    padding: 0px;
+}
+
+aside ul li{
+    list-style:none ;
+    font-size: 16px;
+    padding: 20px;
+}
+
+aside ul li:hover{
+    background-color:#1d1c31;
+    padding: 10px;
+    width: 80%;
+    border-radius: 0px 4px 4px 0px ;
+    border-right: 1px solid #ffb500 ;
+}
+aside ul li.whiteicon:hover{
+    color: #ffb500;
+}
+summary{
+    color: #fff;
+}
+summary:hover{
+    color: #ffb500;
+}
+details p a{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+}
+details p a:hover{
+    text-decoration: none;
+    color: #ffb500;
+}
+#Categories{
+    display: flex;
+    flex-direction: column;  
+}
+#Categories h1{
+    text-align: center;
+    margin-top: 8px;
+    background-color: #4e1bd2;
+    color: #fff;
+    padding: 6px 12px;
+    border: 0px;
+    border-radius:4px ;
+    justify-self: center;
+    border: solid #fff 1px;
+    align-self:center;
+} 
+#Categories img{
+    width:  150px;
+    height: 150px;
+    align-self: center;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    object-fit:cover;
+}
+.figures{
+    flex-wrap: wrap;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+figcaption{
+    text-align: center;
+}
+figcaption a{
+    text-decoration: none;
+    color: #1d1c31;
+}
+figure a:hover{
+    color:#ffb500;
+}
+#Reservation{
+    border: #3a334c 1px solid;
+    border-radius: 4px;
+    padding: 20px 20px;
+    background-color: #1d1c31;
+    color: #fff;
+    right: 0px;
+    margin-left:auto ;
+    width: 25%;
+    min-width: 400px;
+    margin-right: 25% ;
+}
+#reserveform h1{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border: solid #fff 1px;
+    border-radius: 2px;
+    padding: 5px;
+}
