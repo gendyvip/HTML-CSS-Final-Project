@@ -90,7 +90,7 @@ figcaption{
     text-decoration: none;
 }
 .cover{
-    background-image:url("/assets/alex.jpg") ;
+    background-image:url("../alex.jpg") ;
     background-repeat: no-repeat;
     background-size:cover ;
     width: 100%;
